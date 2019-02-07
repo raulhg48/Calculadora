@@ -39,18 +39,18 @@ public class Calculadora {
      * @return the operador
      */
     public int getOperador() {
-        return operador;
+        return operacion;
     }
 
     /**
      * @param operador the operador to set
      */
     public void setOperador(int operador) {
-        this.operador = operador;
+        this.operacion = operador;
     }
     private int operador1;
     private int operador2;
-    private int operador;
+    private int operacion;
     
     public static void main(String[] args) {
 
