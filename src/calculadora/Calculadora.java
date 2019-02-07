@@ -48,10 +48,13 @@ public class Calculadora {
     public void setOperador(int operador) {
         this.operador = operador;
     }
+    /*operador1 es el primer operador*/
+    /*operador2 es el segundo operador*/
+    /*operador es el ultimo operador*/
     private int operador1;
     private int operador2;
     private int operador;
-    
+   
     public static void main(String[] args) {
 
     }   
